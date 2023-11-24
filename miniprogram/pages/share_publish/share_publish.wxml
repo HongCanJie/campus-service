@@ -1,0 +1,20 @@
+<!-- 发表功能 -->
+<view class="pub-wrap">
+<view class="pub-text" bindtap="submitData">发表</view>
+</view>
+<!-- 发表的言论 -->
+<view class="input-wrap">
+<textarea placeholder="记录此刻的美好..." class="input-text" maxlength="2000" bindinput="getValue"></textarea>
+</view>
+<!-- 发表的图片 -->
+<view class="img-wrap">
+<block wx:for="{{cloudImgList}}" wx:key="index">
+<view class="one-img">
+<image src="{{item}}" class="img-choose"></image>
+<image src="../../images/icon/close.png" class="close-img" bindtap="deleteImg" data-index="{{index}}"></image>
+</view>
+</block>
+<view class="one-img" bindtap="chooseImage" wx:if="{{cloudImgList.length<9}}">
+<image src="../../images/icon/add.png" class="img-choose" ></image>
+</view>
+</view>

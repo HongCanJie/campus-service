@@ -1,0 +1,60 @@
+/* 加载蒙层容器 */
+.loading-container{
+  height: 100vh;
+  background-color: silver;
+  display: flex;
+  /* 水平排列 */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-the-more-lucky-reading-reading-reading-reading-posters-image_162215.jpg');
+  background-size: 100vw 100vh;
+  background-attachment: fixed; /*设置背景图片静止 */
+}
+
+/*  */
+
+
+.loading-container text{
+  font-size: large;
+  font-weight: 600;
+}
+
+/* 进度条 */
+progress{
+  width: 80%;
+}
+
+/* 图书详细信息 */
+.intro-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+/* 图书封面图片 */
+.intro-container image{
+  width: 400rpx;
+  margin: 20rpx;
+}
+
+/* 图书信息容器 */
+.intro-box{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 图书文字 */
+.intro-box text{
+  margin: 20rpx;
+}
+
+
+
+
+
+
+
+

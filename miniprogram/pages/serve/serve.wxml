@@ -1,0 +1,44 @@
+<!-- 第一栏功能表     -->
+    <view class="titleview1">
+    <text class="title">
+    小云服务
+    </text>
+    </view>
+<view class="line">
+    <view class="box" bindtap="biaobai">
+      <image src="../../images/icon/biaobai.png"></image>
+      <view>匿名表白墙</view>
+    </view>
+    <view class="box" bindtap="lost">
+      <image src="../../images/icon/lost.png"></image>
+      <view>失物招领</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="box" bindtap="book">
+      <image src="../../images/icon/book.png"></image>
+      <view>电子书橱</view>
+    </view>
+    <view class="box" bindtap="xianzhi">
+      <image src="../../images/icon/xianzhi.png"></image>
+      <view>闲置买卖</view>
+    </view>
+  </view>
+
+<!-- 第二栏功能表 -->
+  <view class="titleview2">
+    <text class="title">
+    小云功能
+    </text>
+    </view>
+    <view class="line">
+    <view class="box" bindtap="xinwen">
+      <image src="../../images/icon/news.png"></image>
+      <view>白云新闻</view>
+    </view>
+    <view class="box" bindtap="calculator">
+      <image src="../../images/icon/calculator.png"></image>
+      <view>计算器</view>
+    </view> 
+  </view>
+

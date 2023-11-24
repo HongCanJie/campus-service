@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "电子书橱",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

@@ -1,0 +1,227 @@
+/* 总布局 */
+.message {
+  /* 伸缩盒子 */
+    display: flex;
+    /* 横向布局 */
+    flex-direction: row;
+    padding: 20rpx 20rpx 40rpx 20rpx;
+}
+
+/* 左半部分 */
+.left{
+  margin-right: 15rpx;
+}
+
+/* 头像 */
+.message .left .face_img{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 20rpx;
+}
+
+/* 昵称 */
+.nickname{
+  color: #586b94;
+  font-weight: 550;
+  font-size: 34rpx;
+  margin-bottom: 15rpx;
+}
+
+/* 发布时间和删除 */
+.time-delete{
+  display: flex;
+  flex-direction: row;
+  font-size: 28rpx;
+}
+
+.time-delete{
+margin: 10rpx 0rpx 10rpx 0rpx;
+}
+
+.time{
+  color: #7f7f77;
+  margin-right: 20rpx;
+}
+
+.delete{
+  color: #586b94;
+}
+
+/* 互动部分 */
+.hudong-box {
+  width: 600rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  color: #7f7f77;
+  margin: 10rpx 0rpx 10rpx 0rpx;
+}
+
+.hudong-img{
+  width: 40rpx; 
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+
+.hudong-cell{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* 动态图片 */
+.images-wrap{
+  margin-top: 10rpx;
+}
+
+image-1{
+  width: 500rpx;
+  height: 300rpx;
+}
+
+.image-2-3{
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 6rpx;
+}
+
+.image-4{
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.image-5-9{
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 6rpx;
+}
+
+/* 点赞、评论列表 */
+.prize-box{
+  display: flex;
+  flex-direction: row;
+  background-color: #f7f7f7; 
+  padding: 10rpx 20rpx;
+  margin: 0rpx 20rpx;
+}
+
+.prize-blue-img{
+  height: 30rpx;
+  width: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+
+.prize-img{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  margin: 10rpx 5rpx;
+}
+
+.prize-img-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* 评论列表 */
+.comment-box{
+  background-color: #f7f7f7;
+  padding: 20rpx 20rpx;
+  margin: 0rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-log{
+  width: 45rpx;
+  height: 45rpx;
+  margin-right: 10rpx;
+  margin-top: 20rpx;
+}
+
+.comment-one{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+
+.comment-face{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+
+.nickname-time{
+  display: flex;
+  flex-direction: row;
+  /* 四周排布 */
+  justify-content: space-between;
+  width: 520rpx;
+
+}
+
+.comment-nickname{
+  color: #586b94;
+  font-weight: 550;
+}
+
+.comment-time{
+  color: #7f7f7f;
+  font-size: 28rpx;
+}
+
+.comment-text{
+  margin-top: 14rpx;
+}
+
+.comment-obj{
+  color: #586b94;
+  font-weight: 550;
+}
+
+/* 发布评论 */
+.pub-comment{
+  background-color: #f7f7f7;
+  padding: 20rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* 定位在底部 */
+  position: fixed;
+  bottom: 0;
+}
+
+.pub-left{
+  background-color: #fff;
+  color: #7f7f7f;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+
+.pub-input{
+  padding: 10rpx 20rpx;
+  width: 500rpx;
+}
+
+.pub-button{
+  color: #7f7f7f;
+  border: solid 1rpx #7f7f7f;
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+}
+
+/* 分享按钮 */
+.share-button{
+  background-color: #fff;
+  margin: 0 0;
+}
+
+.share-text{
+  font-weight: 500;
+  font-size: 28rpx;
+  color: #7f7f77;
+}

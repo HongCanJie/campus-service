@@ -1,0 +1,49 @@
+page{
+  background-color: #fff;
+  padding: 20rpx;
+}
+
+.search_row{
+  height: 60rpx;
+  display: flex;
+}
+
+.search_row input{
+  padding-left: 30rpx;
+  background-color: #dedede;
+  flex: 5;
+  height: 100%;
+  margin-right: 20rpx;
+}
+
+.search_row button{ 
+  flex: 1;
+  width: 110rpx;
+  height: 100%;
+  font-size: 28rpx;
+  padding: 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  font-weight: 400;
+  background-color: #dedede;
+}
+
+.search_content{
+  margin-top: 30rpx;
+}
+
+.search_content .search_item{
+  margin-top: 10rpx;
+  background-color: #dedede;
+  font-size: 26rpx;
+  padding: 15rpx 10rpx;
+  border-bottom: 1px solid #cccccc;
+  /* 超出行隐藏 */
+    overflow: hidden;
+  /* 空格不换行 */
+  white-space: nowrap;
+  /* 超出行后使用省略点标记 */
+  text-overflow: ellipsis;
+}

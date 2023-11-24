@@ -1,65 +1,109 @@
 {
-  "setting": {},
+  "setting": {
+    "urlCheck": true
+  },
   "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide",
-          "query": ""
-        },
-        {
-          "name": "pages/getOpenId/index",
-          "pathName": "pages/getOpenId/index",
+          "name": "博客",
+          "pathName": "pages/share/share",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/deployService/index",
-          "pathName": "pages/deployService/index",
+          "name": "搜索页面",
+          "pathName": "pages/news_search/news_search",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/selectRecord/index",
-          "pathName": "pages/selectRecord/index",
+          "name": "服务页面",
+          "pathName": "pages/serve/serve",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/sumRecordResult/index",
-          "pathName": "pages/sumRecordResult/index",
+          "name": "匿名表白墙",
+          "pathName": "pages/biaobai/biaobai",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/updateRecord/index",
-          "pathName": "pages/updateRecord/index",
+          "name": "失物招领",
+          "pathName": "pages/lost/lost",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/updateRecordResult/index",
-          "pathName": "pages/updateRecordResult/index",
+          "name": "电子书橱",
+          "pathName": "pages/books/books",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/updateRecordSuccess/index",
-          "pathName": "pages/updateRecordSuccess/index",
+          "name": "闲置买卖",
+          "pathName": "pages/xianzhi/xianzhi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "服务",
+          "pathName": "pages/serve/serve",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/news_index/news_index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "计算器",
+          "pathName": "pages/calculator/calculator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "博客详情",
+          "pathName": "pages/share_detail/share_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布动态",
+          "pathName": "pages/share_publish/share_publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的新闻",
+          "pathName": "pages/my_news/my_news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的新闻",
+          "pathName": "pages/my_news/my_news",
+          "query": "",
           "scene": null
         }
       ]
     }
-  }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "libVersion": "2.25.4"
 }

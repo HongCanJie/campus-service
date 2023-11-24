@@ -1,0 +1,35 @@
+.books-list .books_item{
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.books_img_wrap{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .books_img_wrap image{
+    width: 70%;
+    padding: 10rpx 0;
+  }
+
+.books_info_wrap{
+    flex: 3;
+    display: flex;
+    /* 信息在伸缩盒子的主轴方向 */
+    flex-direction: column;
+    /* 信息周围空白环绕 */
+    justify-content: space-evenly;
+  }
+
+ .books_title{
+     font-size: 34rpx;
+     font-weight: 600;
+  }
+
+ .books_type{
+    font-size: 28rpx;
+  }
+  

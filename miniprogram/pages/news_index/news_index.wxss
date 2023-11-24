@@ -1,0 +1,38 @@
+.new-list .news_item{
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.new-list .news_item .news_img_wrap{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new-list .news_item .news_img_wrap image{
+    width: 70%;
+    padding: 10rpx 0;
+  }
+
+  .new-list .news_item .news_info_wrap{
+    flex: 3;
+    display: flex;
+    /* 信息在伸缩盒子的主轴方向 */
+    flex-direction: column;
+    /* 信息周围空白环绕 */
+    justify-content: space-around;
+  }
+
+  .new-list .news_item .news_info_wrap .news_title{
+     /* 商品信息只显示第一、二行，第三行省略 */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .new-list .news_item .news_info_wrap .news_add_date{
+    font-size: 28rpx;
+  }
+  

@@ -1,0 +1,18 @@
+<!-- 新闻信息开始 -->
+<view class="new-list" wx:for="{{newsList}}" wx:key="index">
+<navigator class="news_item"url="../news_detail/news_detail?news_id={{item._id}}"
+>
+<!-- 左侧图片容器 -->
+<view class="news_img_wrap">
+<image  mode="widthFix" src="{{item.poster}}"></image>
+</view>
+<!-- 右侧新闻信息容器 -->
+<view class="news_info_wrap">
+<view class="news_title">◇{{item.title}}</view>
+<view class="news_add_date">{{item.add_date}}</view>
+</view>
+</navigator> 
+</view>
+
+
+

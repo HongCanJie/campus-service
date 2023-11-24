@@ -1,0 +1,218 @@
+page {
+  background-color: #edece8;
+}
+
+
+.user_info_wrap{
+  /* vh表示视口的高 */
+ height: 45vh;
+ /* 图片超出容器区域截取 */
+ overflow: hidden;
+ background: var(--themeColor);
+ /* 相对定位 */
+ position: relative;
+}
+
+.user_info_wrap .user_img_wrap{
+  /* 相对定位 */
+ position: relative;
+}
+
+.user_info_wrap .user_img_wrap .user_bg{
+ height: 50vh;
+ /* 高斯模糊滤镜 */
+ filter: blur(10rpx);
+}
+
+.user_info_wrap .user_img_wrap .user_info{
+ /* 绝对定位 */
+ position: absolute;
+ /* 水平居中 */
+ left: 50%;
+ transform: translate(-50%);
+ top: 20%;
+ /* 文字居中 */
+ text-align: center;
+}
+
+.user_info_wrap .user_img_wrap .user_info .user_icon{
+ width: 150rpx;
+ height: 150rpx;
+ /* 边框圆角 */
+ border-radius: 50%;
+}
+
+.user_info_wrap .user_img_wrap .user_info .user_name{
+ color: white;
+ /* 与头像的距离 */
+ margin-top: 40%;
+ /* font-size: 40rpx; */
+}
+
+.user_info_wrap .user_btn{
+ /* 水平定位 */
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+ top: 40%;  
+ border:1px solid greenyellow;
+ font-size: 38rpx;
+ color: greenyellow;
+ padding: 30rpx;
+ border-radius: 10rpx;
+}
+
+/* 
+.info {
+  background-color: #00a8f3;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.info button{
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #00a8f3
+}
+.name{
+  height: 70rpx;
+  line-height: 80rpx
+}
+.touxiang {
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.touxiang image{
+  width: 160rpx;
+  height: 160rpx
+} */ 
+
+
+
+
+/* 
+.liebiao {
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  padding: 10rpx;
+  border-bottom: 5rpx solid #e6e3e3;
+  justify-content: space-between;
+}
+
+.box1 {
+  background-color: #e0f5ff;
+  display: flex;
+  flex-direction: row;
+  text-indent: 60rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 10rpx;
+  justify-content: space-between;
+}
+
+.box1 text {
+  margin: 0 60rpx;
+  font-size: 25rpx;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+image {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 10rpx 0rpx 50rpx;
+} */
+
+.user_content{
+  position: relative;
+}
+
+.user_content .user_main{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    /* 元素往左位移自身宽度50%的距离 */
+    transform: translateX(-50%);
+    top: -40rpx;
+    color: #666666;   
+    padding-bottom:100rpx;
+}
+
+.user_content .user_main .history_wrap{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.user_content .user_main .history_wrap navigator{
+  float: 1;
+  text-align: center;
+  padding: 23rpx 17rpx;
+  margin-right: 30rpx;
+}
+
+.user_content .user_main .history_wrap navigator .his_num{
+  color: var(--themeColor);
+}
+
+.user_content .user_main .news_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  border-bottom: 1px solid #cccccc;
+}
+
+.user_content .user_main .books_wrap{
+  background-color: #fff;
+  padding: 20rpx;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+.user_content .user_main .app_info_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+
+.user_content .user_main .app_info_wrap .app_info_item{
+  padding: 20rpx;
+  border-bottom: 1px solid #cccccc;
+}
+
+.user_content .user_main .app_info_wrap .app_info_contact{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_content .user_main .recommend_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding:20rpx;
+  padding: 0;
+  display:flex;
+}
+
+.user_content .user_main .recommend_wrap button{
+  flex: 1;
+  background-color: #fff;
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 0;
+  padding-left: 20rpx;
+}

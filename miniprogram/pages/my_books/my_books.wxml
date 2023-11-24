@@ -1,0 +1,20 @@
+<!-- 我的图书开始 -->
+<view class="books-list" wx:for="{{booksList}}" wx:key="index">
+<navigator class="books_item"url="../../pages/books_detail/books_detail?id={{item._id}}"
+>
+<!-- 左侧图片容器 -->
+<view class="books_img_wrap">
+<image  mode="widthFix" src="{{item.coverurl}}"></image>
+</view>
+<!-- 右侧图书信息容器 -->
+<view class="books_info_wrap">
+<view class="books_title">书名：{{item.title}}</view>
+<view class="books_author">作者：{{item.author}}</view>
+<view class="books_type">类型：{{item.type}}</view>
+</view>
+</navigator> 
+</view>
+
+
+
+

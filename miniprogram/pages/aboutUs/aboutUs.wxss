@@ -1,0 +1,16 @@
+
+.text-wrap{
+  padding: 15rpx;
+  text-align: center;
+}
+
+.text-title{
+  font-size: 16pt;
+  line-height: 80rpx;
+}
+
+.text-content{
+  text-align: left;
+  font-size: 12pt;
+  line-height: 60rpx;
+}

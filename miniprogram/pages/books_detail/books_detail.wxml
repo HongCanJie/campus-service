@@ -1,0 +1,22 @@
+<!-- 下载时的蒙层 -->
+<view class="loading-container" wx:if="{{isDownLoading}}">
+<text>下载中，请稍候...</text>
+<progress percent="{{percentNum}}" stroke-width="6" activeColor="#21ee03" backgroundColor="#ffffff" show-info active active-mode="forwards"></progress>
+</view>
+
+<!-- 图书详细信息 -->
+<view class="intro-container" wx:else>
+<!-- 图书封面 -->
+<image src="{{books.coverurl}}" mode="widthFix"></image>
+<!-- 图书信息 -->
+<view class="intro-box">
+<text>种类：{{books.type}}</text>
+<text>书名：{{books.title}}</text>
+<text>作者：{{books.author}}</text>
+<text>价格：{{books.price}}</text>
+<text>ISBN:{{books.isbn}}</text>
+</view>
+
+<!-- 开始阅读 -->
+<button type="warn" bindtap="readBook">开始阅读</button>
+</view>

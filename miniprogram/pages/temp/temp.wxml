@@ -1,0 +1,20 @@
+<block>
+  <view>
+    <view class="title">{{item.name}}</view>
+    <view class="text">卖家：{{item.pName}}</view>
+    <view class="text">卖家微信：{{item.pWechat}}</view>
+    <view class="box">
+      <view class="text">卖家电话：{{item.pCall}}</view>
+      <view class="text" style="color:red">{{item.price}}</view>
+    </view>
+    <view class="line"></view>
+    <view class="text">
+      <text>{{item.info}}</text>
+    </view>
+    <block wx:key="index" wx:for="{{item.fileIDs}}">
+      <view style="margin:auto;width:600rpx;">
+        <image src="{{item}}" mode="aspectFill" data-img='{{item}}' bindtap="previewImg"></image>
+      </view>
+    </block>
+  </view>
+</block>

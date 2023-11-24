@@ -1,26 +1,61 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index"
+    "pages/news_index/news_index",
+    "pages/my/my",
+    "pages/news_detail/news_detail",
+    "pages/serve/serve",
+    "pages/share/share",
+    "pages/share_detail/share_detail",
+    "pages/share_publish/share_publish",
+    "pages/news_search/news_search",
+    "pages/biaobai/biaobai",
+    "pages/lost/lost",
+    "pages/xianzhi/xianzhi",
+    "pages/books/books",
+    "pages/books_detail/books_detail",
+    "pages/send/send",
+    "pages/temp/temp",
+    "pages/calculator/calculator" ,
+    "pages/login/login",
+    "pages/my_news/my_news",
+    "pages/my_books/my_books",
+    "pages/aboutUs/aboutUs"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTitleText": "小云助手",
+    "navigationBarTextStyle": "white"
   },
-  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#328EEB",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/news_index/news_index",
+      "text": "首页",
+      "iconPath": "images/icon/首页.png",
+      "selectedIconPath": "images/icon/首页 (1).png"
+    },
+    {
+      "pagePath": "pages/serve/serve",
+      "text": "服务",
+      "iconPath": "images/icon/服务.png",
+      "selectedIconPath": "images/icon/服务 (1).png"
+    },
+    {
+      "pagePath": "pages/share/share",
+      "text": "博客",
+      "iconPath": "images/icon/分享.png",
+      "selectedIconPath": "images/icon/分享 (1).png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/icon/我的.png",
+      "selectedIconPath": "images/icon/我的 (1).png"
+    }
+    ]
+  },
   "style": "v2",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,57 @@
+/* 发布功能 */
+.pub-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+}
+
+.pub-text{
+  background-color: #07c160;
+  color: #fff;
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+
+/* 发表的言论 */
+.input-wrap{
+  margin: 20rpx 40rpx;
+}
+
+.input-text{
+  height: 200rpx;
+  width: 100%;
+}
+
+/* 发表的图片 */
+.img-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20rpx 30rpx;
+}
+
+.one-img{
+  /* 相对定位 */
+  position: relative;
+  margin: 4rpx 8rpx;
+}
+
+.img-choose{
+  width: 210rpx;
+  height: 210rpx;
+}
+
+.close-img{
+  width: 30rpx;
+  height: 30rpx;
+  /* 绝对定位 */
+  position: absolute;
+  right: 4rpx;
+  top: 4rpx;
+}

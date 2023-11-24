@@ -1,0 +1,36 @@
+<view class="yyb_index">
+<!-- 搜索框开始 -->
+<SearchInput></SearchInput>
+<!-- 搜索框结束 -->
+<!-- 轮播图开始 -->
+<view class="index_swiper">
+<swiper indicator-dots  autoplay circular indicator-active-color="#cccc" >
+<swiper-item wx:for="{{[newsList[4],newsList[2],newsList[3]]}}" wx:key="_id">
+<navigator url="../../pages/news_detail/news_detail?news_id={{item._id}}" >
+<image src="{{item.poster}}"></image>
+</navigator>
+</swiper-item>
+</swiper> 
+</view>
+<!-- 轮播图结束 -->
+
+<!-- 新闻信息开始 -->
+<view class="new-list">
+<navigator class="news_item"
+  wx:for="{{newsList}}"
+  wx:key="_id"
+  url="../news_detail/news_detail?news_id={{item._id}}"
+>
+<!-- 左侧图片容器 -->
+<view class="news_img_wrap">
+<image  mode="widthFix" src="{{item.poster}}"></image>
+</view>
+<!-- 右侧新闻信息容器 -->
+<view class="news_info_wrap">
+<view class="news_title">◇{{item.title}}</view>
+<view class="news_add_date">{{item.add_date}}</view>
+</view>
+</navigator> 
+</view>
+<!-- 新闻信息结束 -->
+</view>
